@@ -30,8 +30,10 @@ This is my working project for my personal portfolio, I am an aspiring front-end
 -   Interactive with JS and CSS transitions
 -   CSS animations to improve UX/UI
 -   Dynamic pages with JS without loading new HTML
+-   CSS flexbox utilized
 -   Mostly semantic HTML
 -   Organized code with notes and proper descriptors
+-   Monochromatic color theme 
 -   Accessible
 
 ## Screenshots
