@@ -115,7 +115,7 @@ footer {
 
 header {
   background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80),
-  url(../images/header_background.jpg);
+    url(../images/header_background.jpg);
   border-radius: 0.5%;
   position: fixed;
   width: 100%;
@@ -150,4 +150,19 @@ i {
 
 #certificate1 {
   display: none;
+}
+
+/*media queries*/
+@media screen and (max-width: 500px) {
+  header {
+    height: 10%;
+  }
+
+  h1, nav, h2, h3, h4 {
+    font-size: 150%;
+  }
+
+  p, .skills ul {
+    font-size: 150%;
+  }
 }
