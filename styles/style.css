@@ -12,6 +12,16 @@
   animation: blinker 1.5s infinite;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 h1, nav, h2, h3, h4 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
@@ -56,6 +66,8 @@ li {
   margin-bottom: 4rem;
   padding: 0rem 3rem 2rem 3rem;
   background-color: rgba(92, 97, 87, 0.9);
+  transition: background-color 1s ease-out;
+  animation: fadeIn 1s;
 }
 
 #certificate1 {
@@ -83,6 +95,7 @@ header {
   height: 20%;
   left: 0;
   top: 0;
+  animation: fadeIn 1s;
 }
 
 html {
@@ -112,4 +125,8 @@ ul img {
 
 .learning img {
   cursor: url(hand.cur), pointer;
+}
+
+.about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover {
+  background-color: #4C613A;
 }
