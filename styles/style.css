@@ -36,6 +36,7 @@ nav a {
   background-color: rgba(135, 172, 104, 0.8);
   border-radius: 5%;
   padding: 0.5rem;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -130,4 +131,8 @@ ul img {
 
 .about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover {
   background-color: #4C613A;
+}
+
+a:hover {
+  text-decoration: none;
 }
