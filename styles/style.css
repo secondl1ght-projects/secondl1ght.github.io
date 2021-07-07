@@ -108,6 +108,16 @@ ul img {
   background-color: #4C613A;
 }
 
+.about, .skills, .contact {
+
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.projects, .learning {
+
+  box-shadow: -5px 5px 5px 5px black;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
