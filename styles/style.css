@@ -1,3 +1,17 @@
+@keyframes blinker {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#blinker {
+  animation: blinker 1.5s infinite;
+}
+
 h1, nav, h2, h3, h4 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
@@ -9,12 +23,15 @@ a {
 
 nav a {
   color: black;
-  background-color: #87AC68;
+  background-color: rgba(135, 172, 104, 0.8);
   border-radius: 5%;
 }
 
 nav a:hover {
   color: #D9E6CF;
+  box-shadow: 3.5px 3.5px black;
+  transition: box-shadow 0.5s ease-out,
+    color 0.1s ease-out;
 }
 
 #percent, #discord {
@@ -38,7 +55,7 @@ li {
   border-radius: 0.5%;
   margin-bottom: 4rem;
   padding: 0rem 3rem 2rem 3rem;
-  background-color: #5C6157;
+  background-color: rgba(92, 97, 87, 0.9);
 }
 
 #certificate1 {
@@ -78,4 +95,21 @@ main {
 
 i {
   color: black;
+}
+
+ul img {
+  vertical-align: middle;
+}
+
+#git:hover {
+  color: #D9E6CF;
+}
+
+.learning img {
+  width: 100%;
+  height: 100%;
+}
+
+.learning img {
+  cursor: url(hand.cur), pointer;
 }

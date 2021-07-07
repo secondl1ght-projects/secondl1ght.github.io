@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/ccca4580d7.js" crossorigin="anonymous"></script>
+  <link rel='icon' href="./images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Nunito" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   <title>secondl1ght's Portfolio site!</title>
@@ -11,14 +12,16 @@
 
 <body>
   <header>
-    <h1>secondl1ght's Portfolio site!</h1>
+    <h1>secondl1ght's Portfolio site<span id='blinker'>_</span></h1>
     <nav>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Learning</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" id='home'>Home</a></li>
+        <li><a href="#" id='about'>About Me</a></li>
+        <li><a href="#" id='projects'>Projects</a></li>
+        <li><a href="#" id='skills'>Skills</a></li>
+        <li><a href="#" id='learning'>Learning</a></li>
+        <li><a href="#" id='contact'>Contact</a></li>
+
       </ul>
     </nav>
   </header>
@@ -69,7 +72,7 @@
       <p>I am currently taking the <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank">Front-End Engineer</a> career path on Codecademy
         and I am <span id='percent'>40%</span> complete! I will display my certificates on this page as I complete them.
       </p>
-      - <a href="#">Learn Responsive Design Certificate</a>
+      <i class="fas fa-certificate"></i> <a href="#learning" id='cert1link'>Learn Responsive Design Certificate</a>
       <img src="./images/certificate1.png" alt="Learn Responsive Design Certificate" id="certificate1">
     </div>
     <div class="contact">
@@ -78,8 +81,9 @@
     </div>
   </main>
   <footer>
-    <i class="fas fa-code"></i> with <i class="fas fa-heartbeat"></i> by <a href="https://www.github.com/secondl1ght"><i class="fab fa-github"></i></a>
+    <i class="fas fa-code"></i> with <i class="fas fa-heartbeat"></i> by <a href="https://www.github.com/secondl1ght" target='_blank'><i id='git' class="fab fa-github"></i></a>
   </footer>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
