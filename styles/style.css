@@ -110,17 +110,23 @@ ul img {
 
 .about, .skills, .contact {
 
-  box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 4px 4px 4px 3px black;
 }
 
 .projects, .learning {
 
-  box-shadow: -5px 5px 5px 5px black;
+  box-shadow: -4px 4px 4px 3px black;
 }
 
 footer {
+
+  border-top: 1px solid black;
+}
+
+#foot {
   display: flex;
   justify-content: space-between;
+  margin-top: 0.5rem;
 }
 
 header {
@@ -133,6 +139,7 @@ header {
   left: 0;
   top: 0;
   animation: fadeIn 1s;
+  border-bottom: 1px solid black;
 }
 
 html {
