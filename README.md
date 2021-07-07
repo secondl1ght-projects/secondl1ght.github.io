@@ -30,8 +30,10 @@ This is my working project for my personal portfolio, I am an aspiring front-end
 -   Interactive with JS and CSS transitions
 -   CSS animations to improve UX/UI
 -   Dynamic pages with JS without loading new HTML
+-   CSS flexbox utilized
 -   Mostly semantic HTML
 -   Organized code with notes and proper descriptors
+-   Monochromatic color theme
 -   Accessible
 
 ## Screenshots
@@ -41,6 +43,7 @@ This is my working project for my personal portfolio, I am an aspiring front-end
 ## Project Status
 
 Project is: _in progress_
+
 I will continue to update this site with new information as I create more projects and progress in my career.
 
 ## Room for Improvement
