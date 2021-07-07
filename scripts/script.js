@@ -1,3 +1,6 @@
+//functions and event listeners for hiding the different content sections
+//when clicking on the nav links to create dynamic pages
+
 const contact = document.querySelector("#contact");
 
 contact.onclick = function swapContentContact() {
@@ -57,6 +60,8 @@ home.onclick = function swapContentHome() {
   document.querySelector(".learning").hidden = false;
   document.querySelector(".contact").hidden = false;
 };
+
+//function and event listeners to hide and show the certificates when clicking on the link and image
 
 const cert1link = document.querySelector("#cert1link");
 const certificate1 = document.querySelector("#certificate1");

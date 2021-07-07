@@ -1,3 +1,4 @@
+/*animations*/
 @keyframes blinker {
   from {
     opacity: 0;
@@ -6,10 +7,6 @@
   to {
     opacity: 1;
   }
-}
-
-#blinker {
-  animation: blinker 1.5s infinite;
 }
 
 @keyframes fadeIn {
@@ -22,11 +19,17 @@
   }
 }
 
+#blinker {
+  animation: blinker 1.5s infinite;
+}
+
+/*main headings and nav*/
 h1, nav, h2, h3, h4 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
 }
 
+/*links*/
 a {
   color: #D9E6CF;
 }
@@ -46,19 +49,48 @@ nav a:hover {
     color 0.1s ease-out;
 }
 
+.learning a {
+  font-family: 'Nunito', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#git:hover {
+  color: #D9E6CF;
+}
+
+footer a {
+  color: black;
+}
+
+/*highlight text*/
 #percent, #discord {
   color: #AFE087;
 }
 
+/*body font*/
 p, .skills ul {
   font-family: 'Nunito', sans-serif;
 }
 
+/*lists*/
 li {
   display: inline;
   padding-right: 1.5rem;
 }
 
+.skills ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul img {
+  vertical-align: middle;
+}
+
+/*content sections and structure*/
 .about, .projects, .skills, .learning, .contact {
   width: 50%;
   height: 100%;
@@ -72,12 +104,8 @@ li {
   animation: fadeIn 1s;
 }
 
-#certificate1 {
-  display: none;
-}
-
-.learning a {
-  font-family: 'Nunito', sans-serif;
+.about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover {
+  background-color: #4C613A;
 }
 
 footer {
@@ -85,21 +113,13 @@ footer {
   justify-content: space-between;
 }
 
-footer a {
-  color: black;
-}
-
-.skills ul {
-  display: flex;
-  justify-content: center;
-}
-
 header {
-  background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+  background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80),
+  url(../images/header_background.jpg);
   border-radius: 0.5%;
   position: fixed;
   width: 100%;
-  height: 20%;
+  height: 23%;
   left: 0;
   top: 0;
   animation: fadeIn 1s;
@@ -110,21 +130,15 @@ html {
 }
 
 main {
-  margin-top: 12rem;
+  margin-top: 13rem;
 }
 
+/*fa icons*/
 i {
   color: black;
 }
 
-ul img {
-  vertical-align: middle;
-}
-
-#git:hover {
-  color: #D9E6CF;
-}
-
+/*certificates*/
 .learning img {
   width: 100%;
   height: 100%;
@@ -134,10 +148,6 @@ ul img {
   cursor: url(hand.cur), pointer;
 }
 
-.about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover {
-  background-color: #4C613A;
-}
-
-a:hover {
-  text-decoration: none;
+#certificate1 {
+  display: none;
 }
