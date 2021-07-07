@@ -1,7 +1,7 @@
 # secondl1ght's Portfolio site
 
 This is my working project for my personal portfolio, I am an aspiring front-end developer interested in contributing to bitcoin.
-(https://www.secondl1ght.github.io) 
+(https://www.secondl1ght.github.io)
 
 ## Table of Contents
 
@@ -60,4 +60,4 @@ Room for improvement:
 
 ## Contact
 
-If you would like to contact me please send me a message on Discord @secondl1ght#9164, I would love to hear from you!
+If you would like to contact me please send me a message on Discord @secondl1ght#9164 or by e-mail at secondl1ght@protonmail.com, I would love to hear from you!
