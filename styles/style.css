@@ -1,0 +1,81 @@
+h1, nav, h2, h3, h4 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+a {
+  color: #D9E6CF;
+}
+
+nav a {
+  color: black;
+  background-color: #87AC68;
+  border-radius: 5%;
+}
+
+nav a:hover {
+  color: #D9E6CF;
+}
+
+#percent, #discord {
+  color: #AFE087;
+}
+
+p, .skills ul {
+  font-family: 'Nunito', sans-serif;
+}
+
+li {
+  display: inline;
+  padding-right: 1.5rem;
+}
+
+.about, .projects, .skills, .learning, .contact {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 0.5%;
+  margin-bottom: 4rem;
+  padding: 0rem 3rem 2rem 3rem;
+  background-color: #5C6157;
+}
+
+#certificate1 {
+  display: none;
+}
+
+.learning a {
+  font-family: 'Nunito', sans-serif;
+}
+
+footer {
+  text-align: right;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+  border-radius: 0.5%;
+  position: fixed;
+  width: 100%;
+  height: 20%;
+  left: 0;
+  top: 0;
+}
+
+html {
+  background-color: #4C613A;
+}
+
+main {
+  margin-top: 12rem;
+}
+
+i {
+  color: black;
+}
