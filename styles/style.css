@@ -170,7 +170,7 @@ i {
 }
 
 /*media queries*/
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   header {
     height: 10%;
   }
