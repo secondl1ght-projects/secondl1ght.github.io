@@ -33,11 +33,7 @@ This is my working project for my personal portfolio, I am an aspiring front-end
 -   CSS flexbox utilized
 -   Mostly semantic HTML
 -   Organized code with notes and proper descriptors
-<<<<<<< HEAD
 -   Monochromatic color theme
-=======
--   Monochromatic color theme 
->>>>>>> 6425806dda901dd0fdfbb1c2eabb627eda054048
 -   Accessible
 
 ## Screenshots
