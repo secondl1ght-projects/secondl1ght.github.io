@@ -1,7 +1,7 @@
-# secondl1ght Portfolio site
+# secondl1ght's Portfolio site
 
 This is my working project for my personal portfolio, I am an aspiring front-end developer interested in contributing to bitcoin.
-[secondl1ght's Portfolio site](https://www.secondl1ght.github.io)
+(https://www.secondl1ght.github.io)
 
 ## Table of Contents
 
@@ -40,7 +40,8 @@ This is my working project for my personal portfolio, I am an aspiring front-end
 
 ## Project Status
 
-Project is: _in progress_ I will continue to update this site with new information as I create more projects and progress in my career.
+Project is: _in progress_
+I will continue to update this site with new information as I create more projects and progress in my career.
 
 ## Room for Improvement
 
