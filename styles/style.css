@@ -81,7 +81,12 @@ li {
 }
 
 footer {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: black;
 }
 
 .skills ul {
