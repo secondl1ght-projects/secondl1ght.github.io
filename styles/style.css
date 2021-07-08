@@ -184,6 +184,7 @@ i {
     padding: 0.3rem;
     width: 5rem;
     display: inline-block;
+    margin-bottom: 2%;
   }
 
   .skills ul {
@@ -193,5 +194,5 @@ i {
 }
 
 footer {
-  font-size: 75%;
+  font-size: 70%;
 }
