@@ -11,9 +11,8 @@ h1, h2, h3 {
 
 body {
   border: 2px solid black;
-  width: 75%;
-  height: 100%;
-
+  background-color: #4c613a;
+  margin-top: 100%;
 }
 
 a {
