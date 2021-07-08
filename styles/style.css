@@ -166,11 +166,7 @@ i {
 }
 
 /*media queries*/
-@media only screen and (max-width: 500px) {
-  header {
-    height: 25%;
-  }
-
+@media only screen and (max-width: 720px) {
   h1, nav, h2, h3, h4 {
     font-size: 125%;
   }
@@ -180,16 +176,18 @@ i {
   }
 
   .about, .projects, .skills, .learning, .contact {
-    width: 80%;
+    width: 65%;
   }
 
   nav a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 0.3rem;
     width: 5rem;
+    display: inline-block;
   }
 
   .skills ul {
     justify-content: space-around;
+    overflow: auto;
   }
 }
