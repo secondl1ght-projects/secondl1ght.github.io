@@ -187,7 +187,11 @@ i {
   }
 
   .skills ul {
-    justify-content: space-around;
-    overflow: auto;
+    display: inline-grid;
+    margin-left: 20%;
   }
+}
+
+footer {
+  font-size: 85%;
 }
