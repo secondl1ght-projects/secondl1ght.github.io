@@ -49,8 +49,6 @@ I will continue to update this site with new information as I create more projec
 
 ## Room for Improvement
 
-Room for improvement:
-
 -   The design is not the most complicated or cutting edge but I do like the simplicity and ease of viewing the website has.
 
 ## Acknowledgements
