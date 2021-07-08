@@ -191,8 +191,8 @@ i {
     justify-content: center;
     flex-wrap: wrap;
   }
-}
 
-footer {
-  font-size: 65%;
+  footer {
+    font-size: 65%;
+  }
 }

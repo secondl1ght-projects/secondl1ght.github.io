@@ -1,7 +1,7 @@
 # secondl1ght's Portfolio site
 
 This is my working project for my personal portfolio, I am an aspiring front-end developer interested in contributing to bitcoin.
-(<https://www.secondl1ght.github.io>)
+(<https://secondl1ght.site>)
 
 ## Table of Contents
 
