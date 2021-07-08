@@ -167,10 +167,6 @@ i {
 
 /*media queries*/
 @media only screen and (max-width: 720px) {
-  h1, nav, h2, h3, h4 {
-    font-size: 125%;
-  }
-
   p, .skills ul {
     font-size: 110%;
   }
@@ -180,11 +176,11 @@ i {
   }
 
   nav a {
-    font-size: 0.8rem;
-    padding: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.6rem;
     width: 5rem;
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
   }
 
   .skills ul {
