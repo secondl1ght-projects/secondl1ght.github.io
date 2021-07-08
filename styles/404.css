@@ -9,9 +9,7 @@ h1, h2, h3 {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  border: 2px dashed black;
+  border: 2px solid black;
 }
 
 a {
