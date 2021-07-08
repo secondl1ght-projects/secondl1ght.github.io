@@ -188,8 +188,8 @@ i {
   }
 
   .skills ul {
-    display: inline-grid;
-    margin-left: 18%;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
 
