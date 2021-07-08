@@ -167,6 +167,10 @@ i {
 
 /*media queries*/
 @media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 125%;
+  }
+
   p, .skills ul {
     font-size: 110%;
   }
