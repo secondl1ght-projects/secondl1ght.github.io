@@ -1,0 +1,20 @@
+/*style for the 404 page*/
+
+html {
+  background-color: #4C613A;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  border: 2px dashed black;
+}
+
+a {
+  color: #D9E6CF;
+}
