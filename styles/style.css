@@ -151,7 +151,6 @@ header {
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: background-size 999999s;
 }
 
 body {
@@ -217,5 +216,9 @@ i {
 
   footer {
     font-size: 65%;
+  }
+
+  header {
+    height: 23vh;
   }
 }
