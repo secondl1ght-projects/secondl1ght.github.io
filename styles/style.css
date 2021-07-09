@@ -151,7 +151,7 @@ header {
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
-  will-change: transform;
+  will-change: scroll-position;
 }
 
 body {
