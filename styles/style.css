@@ -24,6 +24,10 @@
 }
 
 /*main headings and nav*/
+h1 {
+  background-color: rgba(217, 230, 207, 0.1);
+}
+
 h1, nav, h2, h3, h4 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
@@ -136,6 +140,7 @@ footer {
 }
 
 header {
+  background-color: rgba(217, 230, 207, 0.2);
   background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
   border-radius: 0.5%;
   position: fixed;
@@ -146,6 +151,7 @@ header {
   animation: fadeIn 1s;
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -182,7 +188,7 @@ i {
 }
 
 /*media queries*/
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 770px) {
   h1 {
     font-size: 125%;
   }
