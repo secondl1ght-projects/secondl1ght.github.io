@@ -151,7 +151,6 @@ header {
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
-  will-change: scroll-position;
 }
 
 body {
@@ -162,6 +161,7 @@ html {
   background-color: #4C613A;
   position: relative;
   min-height: 100%;
+  overflow: hidden;
 }
 
 main {
