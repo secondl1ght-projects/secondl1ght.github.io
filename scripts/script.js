@@ -63,11 +63,15 @@ home.onclick = function swapContentHome() {
 
 //function and event listeners to hide and show the certificates when clicking on the link and image
 
-const cert1link = document.querySelector("#cert1link");
+const cert1Link = document.querySelector("#cert1link");
 const certificate1 = document.querySelector("#certificate1");
 
-cert1link.onclick = function showCert1() {
-  certificate1.style.display = "block";
+cert1Link.onclick = function showHideCert1() {
+  if (certificate1.style.display === "none") {
+    certificate1.style.display = "block";
+  } else {
+    certificate1.style.display = "none";
+  }
 };
 
 certificate1.onclick = function hideCert1() {

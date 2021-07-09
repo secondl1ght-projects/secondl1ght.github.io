@@ -62,7 +62,7 @@ a:hover {
 }
 
 #git:hover {
-  color: rgba(92, 97, 87, 1);
+  color: #4C613A;
 }
 
 footer i {
@@ -151,7 +151,7 @@ header {
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: height 999999s;
+  transition: background-size 999999s;
 }
 
 body {
@@ -180,7 +180,8 @@ i {
 }
 
 .learning img {
-  cursor: url(hand.cur), pointer;
+  cursor: pointer;
+  animation: fadeIn 1s;
 }
 
 #certificate1 {
