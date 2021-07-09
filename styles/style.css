@@ -150,7 +150,8 @@ header {
   animation: fadeIn 1s;
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  will-change: transform;
 }
 
 body {
