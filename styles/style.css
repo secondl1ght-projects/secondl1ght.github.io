@@ -140,8 +140,7 @@ footer {
 }
 
 header {
-  background-color: rgba(217, 230, 207, 0.2);
-  background-image: url(https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+  background-image: url(https: //images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
   border-radius: 0.5%;
   position: fixed;
   width: 100%;
