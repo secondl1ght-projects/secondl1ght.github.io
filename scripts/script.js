@@ -67,7 +67,10 @@ const cert1Link = document.querySelector("#cert1link");
 const certificate1 = document.querySelector("#certificate1");
 
 cert1Link.onclick = function showHideCert1() {
-  if (certificate1.style.display === "none") {
+  if (
+    certificate1.style.display === "none" ||
+    certificate1.style.display === ""
+  ) {
     certificate1.style.display = "block";
   } else {
     certificate1.style.display = "none";
