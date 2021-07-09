@@ -139,6 +139,11 @@ footer {
   padding: 0.5rem;
 }
 
+header::before {
+
+  will-change: transform;
+}
+
 header {
   background-image: url('https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
   border-radius: 0.5%;
@@ -150,7 +155,7 @@ header {
   animation: fadeIn 1s;
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
 }
 
