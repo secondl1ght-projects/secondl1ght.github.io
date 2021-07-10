@@ -239,6 +239,7 @@ i {
     width: 4rem;
     display: inline-block;
     margin-bottom: 5%;
+    font-weight: bold;
   }
 
   .skills ul {
