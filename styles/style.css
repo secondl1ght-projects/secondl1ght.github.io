@@ -124,7 +124,7 @@ ul img {
   margin-bottom: 4rem;
   padding: 0rem 3rem 2rem 3rem;
   background-color: rgba(92, 97, 87, 0.9);
-  transition: background-color 1s ease-out;
+  transition: background-color 0.5s ease-out;
   animation: fadeIn 1s;
 }
 
