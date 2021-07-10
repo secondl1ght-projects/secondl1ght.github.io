@@ -132,11 +132,11 @@ ul img {
   background-color: #4C613A;
 }
 
-.about, .skills, .contact {
+.about, .learning, .contact {
   box-shadow: 4px 4px 4px 3px black;
 }
 
-.projects, .learning {
+.projects, .skills {
   box-shadow: -4px 4px 4px 3px black;
 }
 
