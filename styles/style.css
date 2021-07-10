@@ -183,8 +183,12 @@ i {
   animation: fadeIn 1s;
 }
 
-#certificate1 {
+#certificate1, #certificate2, #certificate3 {
   display: none;
+}
+
+.certificates {
+  text-align: center;
 }
 
 /*media queries*/

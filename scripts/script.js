@@ -80,3 +80,39 @@ cert1Link.onclick = function showHideCert1() {
 certificate1.onclick = function hideCert1() {
   certificate1.style.display = "none";
 };
+
+const cert2Link = document.querySelector("#cert2link");
+const certificate2 = document.querySelector("#certificate2");
+
+cert2Link.onclick = function showHideCert2() {
+  if (
+    certificate2.style.display === "none" ||
+    certificate2.style.display === ""
+  ) {
+    certificate2.style.display = "block";
+  } else {
+    certificate2.style.display = "none";
+  }
+};
+
+certificate2.onclick = function hideCert2() {
+  certificate2.style.display = "none";
+};
+
+const cert3Link = document.querySelector("#cert3link");
+const certificate3 = document.querySelector("#certificate3");
+
+cert3Link.onclick = function showHideCert3() {
+  if (
+    certificate3.style.display === "none" ||
+    certificate3.style.display === ""
+  ) {
+    certificate3.style.display = "block";
+  } else {
+    certificate3.style.display = "none";
+  }
+};
+
+certificate3.onclick = function hideCert3() {
+  certificate3.style.display = "none";
+};
