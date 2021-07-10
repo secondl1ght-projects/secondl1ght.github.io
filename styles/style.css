@@ -69,7 +69,7 @@ footer i {
   color: #D9E6CF;
 }
 
-.projects a:hover, .certificates a:hover {
+.projects a:hover, .certificates a:hover, #gitlink:hover {
   text-shadow: 1px 1px black;
 }
 
@@ -77,7 +77,7 @@ nav a:active {
   box-shadow: 0 0;
 }
 
-.certificates a:active, .projects a:active {
+.certificates a:active, .projects a:active, #gitlink:active {
   text-shadow: 0 0;
 }
 
