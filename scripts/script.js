@@ -64,6 +64,7 @@ home.onclick = function swapContentHome() {
 //function and event listeners to hide and show the certificates when clicking on the link and image
 
 //to-do: rewrite this code to reuse a single function to make better
+//also consider writing these as modules and importing
 
 const cert1Link = document.querySelector("#cert1link");
 const certificate1 = document.querySelector("#certificate1");
