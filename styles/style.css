@@ -197,7 +197,7 @@ i {
 }
 
 .skills li:hover {
-  color: #D9E6CF
+  font-weight: bold;
 }
 
 /*certificates*/
