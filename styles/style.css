@@ -196,6 +196,18 @@ main {
   text-decoration: underline;
 }
 
+.tech {
+  display: flex;
+  justify-content: center;
+}
+
+.tech i {
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 0.5rem;
+  align-self: center;
+}
+
 /*fa icons*/
 i {
   color: black;
@@ -215,8 +227,9 @@ i {
   cursor: pointer;
   animation: fadeIn 1s;
 }
+
 /*consider changing selector on these*/
-#certificate1, #certificate2, #certificate3, #certificate4, #certificate5, #certificate6, #certificate7 {
+#certificate1, #certificate2, #certificate3, #certificate4, #certificate5, #certificate6, #certificate7, #certificate8 {
   display: none;
 }
 
