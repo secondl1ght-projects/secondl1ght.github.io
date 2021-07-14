@@ -276,9 +276,10 @@ i {
   header {
     height: 23vh;
   }
-}
 
-.tech i {
-  margin-left: 2%;
-  margin-right: 2%;
+  .tech i {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-wrap: wrap;
+  }
 }
