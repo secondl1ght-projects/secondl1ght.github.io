@@ -94,11 +94,6 @@ nav a:active {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.syntax {
-  color: rgba(135, 172, 104, 1);
-  font-weight: bold;
-}
-
 /*body font*/
 p, .skills ul {
   font-family: 'Nunito', sans-serif;
