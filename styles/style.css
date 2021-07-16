@@ -261,12 +261,7 @@ i {
   }
 
   .skills ul {
-    justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .skills li {
-    margin-bottom: 2.5%;
   }
 
   footer {
