@@ -56,6 +56,7 @@ I will continue to update this site with new information as I create more projec
 -   Header background (<https://unsplash.com/photos/jKd68S1rWes>)
 -   Fonts by Google Fonts
 -   Icons by (<https://www.fontawesome.com>), (<https://www.icons8.com>) and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+-   Coded using Atom text editor
 
 ## Contact
 
