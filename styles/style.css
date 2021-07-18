@@ -74,6 +74,7 @@ a:hover {
   color: #4C613A;
 }
 
+
 footer i {
   color: #D9E6CF;
 }
@@ -90,7 +91,7 @@ nav a:active {
   text-decoration: none;
 }
 
-.projects a:hover, #ccpath:hover {
+.projects a:hover, #ccpath:hover, .contact a:hover {
   text-decoration: underline;
 }
 
@@ -118,6 +119,7 @@ nav a:active {
 /*highlight text*/
 .highlight {
   color: #AFE087;
+  text-decoration: none;
 }
 
 .contact .highlight {
