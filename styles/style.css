@@ -28,12 +28,12 @@ h1 {
   background-color: rgba(217, 230, 207, 0.1);
 }
 
-h1, nav, h2, h3, h4, h5 {
+h1, nav, h2, h3, h4 {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
 }
 
-h5 {
+.learning h4 {
   margin: 0.5rem 0 0.1rem 0;
 }
 
@@ -42,7 +42,7 @@ h4 {
 }
 
 /*body font*/
-p, .skills ul, span, .learning a {
+p, .skills ul, span, .learning a, .learning h4 {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -86,7 +86,11 @@ nav a:active {
   box-shadow: 0 0;
 }
 
-.projects a:hover {
+#ccpath {
+  text-decoration: none;
+}
+
+.projects a:hover, #ccpath:hover {
   text-decoration: underline;
 }
 
@@ -270,7 +274,7 @@ i {
     font-size: 125%;
   }
 
-  p, .skills ul, .learning a {
+  p, .skills ul, .learning a, .learning em {
     font-size: 110%;
   }
 
