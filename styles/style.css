@@ -41,8 +41,12 @@ h4 {
   margin-bottom: 0.7rem;
 }
 
+h5 {
+  text-align: center;
+}
+
 /*body font*/
-p, .skills ul, span, .learning a, .learning h4 {
+p, .skills ul, span, .learning a, .learning h4, h5 {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -74,7 +78,6 @@ a:hover {
   color: #4C613A;
 }
 
-
 footer i {
   color: #D9E6CF;
 }
@@ -95,11 +98,12 @@ nav a:active {
   text-decoration: underline;
 }
 
+
 .certificates a:active, .projects a:active, #gitlink:active, #profile a:active {
   text-shadow: 0 0;
 }
 
-#git:active {
+#git:active, .contact a:active {
   color: #D9E6CF;
 }
 
@@ -248,6 +252,18 @@ i {
 
 .skills li:hover {
   font-weight: bold;
+}
+
+#live {
+  color: rgba(135, 172, 104, 1);
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+#inprogress {
+  color: #D9E6CF;
+  border: 1px solid black;
+  border-radius: 100%;
 }
 
 /*certificates*/
