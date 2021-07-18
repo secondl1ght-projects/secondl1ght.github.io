@@ -270,6 +270,10 @@ i {
 
 /*media queries*/
 @media only screen and (max-width: 770px) {
+  h1 {
+    font-size: 125%;
+  }
+
   .about, .projects, .skills, .learning, .contact {
     width: 65%;
   }
