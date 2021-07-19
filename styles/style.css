@@ -288,7 +288,10 @@ i {
 
 #gold {
   color: goldenrod;
-  margin-bottom: 1rem;
+}
+
+#margin {
+  margin-top: 1rem;
 }
 
 /*media queries*/
