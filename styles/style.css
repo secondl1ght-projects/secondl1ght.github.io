@@ -286,6 +286,11 @@ i {
   text-align: center;
 }
 
+#gold {
+  color: goldenrod;
+  margin-bottom: 1rem;
+}
+
 /*media queries*/
 @media only screen and (max-width: 770px) {
   h1 {
