@@ -121,9 +121,11 @@ nav a:active {
 
 #source {
   text-decoration: none;
-  margin: 0 0 0.2rem 0;
-  display: block;
+}
+
+#center {
   text-align: center;
+  margin: 0 0 0.2rem 0;
 }
 
 /*highlight text*/
