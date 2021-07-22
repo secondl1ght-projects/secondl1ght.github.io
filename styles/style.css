@@ -46,7 +46,7 @@ h5 {
 }
 
 /*body font*/
-p, .skills ul, span, .learning a, .learning h4, h5 {
+p, .skills ul, span, .learning a, .learning h4, h5, #source {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -121,7 +121,9 @@ nav a:active {
 
 #source {
   text-decoration: none;
-  margin: 0 0 0.1rem 0;
+  margin: 0 0 0.2rem 0;
+  display: block;
+  text-align: center;
 }
 
 /*highlight text*/
