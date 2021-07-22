@@ -82,7 +82,7 @@ footer i {
   color: #D9E6CF;
 }
 
-.certificates a:hover, #gitlink:hover, #profile a:hover {
+.certificates a:hover, #gitlink:hover, #profile a:hover, #source:hover {
   text-shadow: 1px 1px black;
 }
 
@@ -94,12 +94,11 @@ nav a:active {
   text-decoration: none;
 }
 
-.projects a:hover, #ccpath:hover, .contact a:hover {
+.projectlink:hover, #ccpath:hover, .contact a:hover {
   text-decoration: underline;
 }
 
-
-.certificates a:active, .projects a:active, #gitlink:active, #profile a:active {
+.certificates a:active, .projectlink:active, #gitlink:active, #profile a:active, #source:active {
   text-shadow: 0 0;
 }
 
@@ -107,7 +106,7 @@ nav a:active {
   color: #D9E6CF;
 }
 
-.projects a {
+.projectlink {
   border: 1px solid black;
   padding: 0.5%;
   border-radius: 4%;
@@ -118,6 +117,11 @@ nav a:active {
 
 .certificates a {
   text-decoration: none;
+}
+
+#source {
+  text-decoration: none;
+  margin: 0 0 0.1rem 0;
 }
 
 /*highlight text*/
