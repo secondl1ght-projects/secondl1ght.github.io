@@ -24,6 +24,20 @@
 }
 
 /*main headings and nav*/
+header {
+  background-image: url('https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+  border-radius: 0.5%;
+  position: fixed;
+  width: 100%;
+  height: 23%;
+  left: 0;
+  top: 0;
+  animation: fadeIn 1s;
+  border-bottom: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   background-color: rgba(217, 230, 207, 0.1);
 }
@@ -201,20 +215,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
-}
-
-header {
-  background-image: url('https://images.unsplash.com/photo-1584734622606-e8e7f99706c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
-  border-radius: 0.5%;
-  position: fixed;
-  width: 100%;
-  height: 23%;
-  left: 0;
-  top: 0;
-  animation: fadeIn 1s;
-  border-bottom: 1px solid black;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body {
