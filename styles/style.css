@@ -342,6 +342,18 @@ i {
 
 @media only screen and (min-height: 700px) {
   header {
+    height: 20%;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  header {
+    height: 17%;
+  }
+}
+
+@media only screen and (min-height: 1100px) {
+  header {
     height: 15%;
   }
 }
