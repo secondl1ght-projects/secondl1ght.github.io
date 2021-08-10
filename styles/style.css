@@ -339,3 +339,9 @@ i {
     flex-wrap: wrap;
   }
 }
+
+@media only screen and (min-height: 700px) {
+  header {
+    height: 15%;
+  }
+}
