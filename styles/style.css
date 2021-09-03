@@ -253,6 +253,18 @@ main {
   text-align: center;
 }
 
+.projects img {
+  width: 50%;
+  height: 50%;
+}
+
+#imgcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
 /*fa icons*/
 i {
   color: black;
