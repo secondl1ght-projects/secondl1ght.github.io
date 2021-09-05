@@ -265,6 +265,11 @@ main {
   margin-bottom: 0;
 }
 
+#btcscreenshot {
+  height: 25rem;
+  width: 12.5rem;
+}
+
 /*fa icons*/
 i {
   color: black;
