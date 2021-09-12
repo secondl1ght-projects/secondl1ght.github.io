@@ -311,6 +311,10 @@ i {
   text-align: center;
 }
 
+.certificates i {
+  color: silver;
+}
+
 #gold {
   color: goldenrod;
 }
@@ -365,7 +369,6 @@ i {
     height: 18rem;
     width: 9rem;
   }
-
 }
 
 @media only screen and (min-height: 700px) {
