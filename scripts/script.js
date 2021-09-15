@@ -263,3 +263,21 @@ cert11Link.onclick = function showHideCert11() {
 certificate11.onclick = function hideCert11() {
   certificate11.style.display = "none";
 };
+
+const cert12Link = document.querySelector("#cert12link");
+const certificate12 = document.querySelector("#certificate12");
+
+cert12Link.onclick = function showHideCert12() {
+  if (
+    certificate12.style.display === "none" ||
+    certificate12.style.display === ""
+  ) {
+    certificate12.style.display = "block";
+  } else {
+    certificate12.style.display = "none";
+  }
+};
+
+certificate12.onclick = function hideCert12() {
+  certificate12.style.display = "none";
+};
