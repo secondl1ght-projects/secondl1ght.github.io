@@ -364,7 +364,7 @@ i {
     padding: 0.4rem;
     width: 5rem;
     display: inline-block;
-    margin-bottom: 1%;
+    margin-bottom: 2.5%;
     font-weight: bold;
   }
 
@@ -377,7 +377,7 @@ i {
   }
 
   header {
-    height: 23vh;
+    height: 25vh;
   }
 
   .tech i {
@@ -395,19 +395,15 @@ i {
     height: 18rem;
     width: 9rem;
   }
+
+  #profilelink {
+    width: 35%;
+  }
 }
 
 @media only screen and (min-height: 700px) {
   header {
     height: 20%;
-  }
-
-  #profilelink {
-    width: 35%;
-  }
-
-  figcaption {
-    width: 100%;
   }
 }
 
