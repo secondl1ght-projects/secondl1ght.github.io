@@ -377,7 +377,7 @@ i {
   }
 
   header {
-    height: 28vh;
+    height: 30vh;
   }
 
   .tech i {
@@ -402,7 +402,7 @@ i {
     height: 20%;
   }
   #profilelink {
-    width: 50%;
+    width: 25%;
   }
 }
 
