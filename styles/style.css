@@ -364,7 +364,7 @@ i {
     padding: 0.4rem;
     width: 5rem;
     display: inline-block;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     font-weight: bold;
   }
 
@@ -377,7 +377,7 @@ i {
   }
 
   header {
-    height: 30vh;
+    height: 23vh;
   }
 
   .tech i {
@@ -401,8 +401,13 @@ i {
   header {
     height: 20%;
   }
+
   #profilelink {
-    width: 25%;
+    width: 35%;
+  }
+
+  figcaption {
+    width: 100%;
   }
 }
 
