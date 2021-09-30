@@ -9,6 +9,7 @@ contact.onclick = function swapContentContact() {
   document.querySelector(".skills").hidden = true;
   document.querySelector(".learning").hidden = true;
   document.querySelector(".contact").hidden = false;
+  document.querySelector(".opensource").hidden = true;
 };
 
 const about = document.querySelector("#about");
@@ -19,6 +20,7 @@ about.onclick = function swapContentAbout() {
   document.querySelector(".skills").hidden = true;
   document.querySelector(".learning").hidden = true;
   document.querySelector(".contact").hidden = true;
+  document.querySelector(".opensource").hidden = true;
 };
 
 const projects = document.querySelector("#projects");
@@ -29,6 +31,18 @@ projects.onclick = function swapContentProjects() {
   document.querySelector(".skills").hidden = true;
   document.querySelector(".learning").hidden = true;
   document.querySelector(".contact").hidden = true;
+  document.querySelector(".opensource").hidden = true;
+};
+
+const opensource = document.querySelector("#opensource");
+
+opensource.onclick = function swapContentOpenSource() {
+  document.querySelector(".about").hidden = true;
+  document.querySelector(".projects").hidden = true;
+  document.querySelector(".skills").hidden = true;
+  document.querySelector(".learning").hidden = true;
+  document.querySelector(".contact").hidden = true;
+  document.querySelector(".opensource").hidden = false;
 };
 
 const skills = document.querySelector("#skills");
@@ -39,6 +53,7 @@ skills.onclick = function swapContentSkills() {
   document.querySelector(".skills").hidden = false;
   document.querySelector(".learning").hidden = true;
   document.querySelector(".contact").hidden = true;
+  document.querySelector(".opensource").hidden = true;
 };
 
 const learning = document.querySelector("#learning");
@@ -49,6 +64,7 @@ learning.onclick = function swapContentLearning() {
   document.querySelector(".skills").hidden = true;
   document.querySelector(".learning").hidden = false;
   document.querySelector(".contact").hidden = true;
+  document.querySelector(".opensource").hidden = true;
 };
 
 const home = document.querySelector("#home");
@@ -59,6 +75,7 @@ home.onclick = function swapContentHome() {
   document.querySelector(".skills").hidden = false;
   document.querySelector(".learning").hidden = false;
   document.querySelector(".contact").hidden = false;
+  document.querySelector(".opensource").hidden = false;
 };
 
 //function and event listeners to hide and show the certificates when clicking on the link and image

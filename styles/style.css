@@ -55,12 +55,12 @@ h4 {
   margin-bottom: 0.7rem;
 }
 
-h5 {
+h5, figcaption {
   text-align: center;
 }
 
 /*body font*/
-p, .skills ul, span, .learning a, .learning h4, h5, #source {
+p, .skills ul, span, .learning a, .learning h4, h5, #source, figcaption {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -133,6 +133,28 @@ nav a:active {
   text-decoration: none;
 }
 
+#profilelink {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+#profilepic, #profilepictext {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#profilepictext, #profilelink:hover #profilepic {
+  display: none;
+}
+
+#profilepic, #profilelink:hover #profilepictext {
+  display: block;
+}
+
 #source {
   text-decoration: none;
 }
@@ -173,7 +195,7 @@ ul img {
 }
 
 /*content sections and structure*/
-.about, .projects, .skills, .learning, .contact {
+.about, .projects, .skills, .learning, .contact, .opensource {
   width: 50%;
   height: 100%;
   margin: 0 auto;
@@ -186,15 +208,15 @@ ul img {
   animation: fadeIn 1s;
 }
 
-.about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover {
+.about:hover, .learning:hover, .projects:hover, .skills:hover, .contact:hover, .opensource:hover {
   background-color: #4C613A;
 }
 
-.about, .learning, .contact {
+.about, .learning, .opensource {
   box-shadow: 4px 4px 4px 3px black;
 }
 
-.projects, .skills {
+.projects, .skills, .contact {
   box-shadow: -4px 4px 4px 3px black;
 }
 
@@ -329,7 +351,7 @@ i {
     font-size: 125%;
   }
 
-  .about, .projects, .skills, .learning, .contact {
+  .about, .projects, .skills, .learning, .contact, .opensource {
     width: 65%;
   }
 
