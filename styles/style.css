@@ -364,7 +364,7 @@ i {
     padding: 0.4rem;
     width: 5rem;
     display: inline-block;
-    margin-bottom: 2.5%;
+    margin-bottom: 3%;
     font-weight: bold;
   }
 
@@ -404,7 +404,7 @@ i {
 
 @media only screen and (min-height: 700px) {
   header {
-    height: 22%;
+    height: 23%;
   }
 }
 
