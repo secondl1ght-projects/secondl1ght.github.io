@@ -420,6 +420,7 @@ i {
 
   #profilelink {
     width: 35%;
+    margin-bottom: 5%;
   }
 
   figure {
@@ -429,7 +430,6 @@ i {
 
   #hack {
     width: 75%;
-    margin-top: 5%;
   }
 }
 
