@@ -415,8 +415,8 @@ i {
 
 @media only screen and (max-height: 750px) {
   #btcscreenshot {
-    height: 18rem;
-    width: 9rem;
+    height: 20rem;
+    width: 10rem;
   }
 }
 
