@@ -148,11 +148,11 @@ nav a:active {
   animation: fadeIn 0.75s;
 }
 
-#profilepictext, #profilelink:hover #profilepic {
+#profilepic, #profilelink:hover #profilepictext {
   display: none;
 }
 
-#profilepic, #profilelink:hover #profilepictext {
+#profilepictext, #profilelink:hover #profilepic {
   display: block;
 }
 
@@ -446,14 +446,6 @@ i {
   #hack {
     width: 75%;
     margin: 10% auto;
-  }
-
-  #profilepic, #profilelink:hover #profilepictext {
-    display: none;
-  }
-
-  #profilepictext, #profilelink:hover #profilepic {
-    display: block;
   }
 }
 
