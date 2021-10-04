@@ -431,6 +431,14 @@ i {
     width: 75%;
     margin: 10% auto;
   }
+
+  #profilepic, #profilelink:hover #profilepictext {
+    display: none;
+  }
+
+  #profilepictext, #profilelink:hover #profilepic {
+    display: block;
+  }
 }
 
 @media only screen and (max-height: 750px) {
