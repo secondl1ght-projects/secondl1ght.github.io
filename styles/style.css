@@ -163,7 +163,7 @@ nav a:active {
 }
 
 .links a {
-  margin: 7%;
+  margin: 8%;
 }
 
 #profilepic, #profilelink:hover #profilepictext {
@@ -494,10 +494,6 @@ i {
     width: 55%;
   }
 
-  .links a {
-    margin: 8%;
-  }
-
   body {
     margin-bottom: 22.5%
   }
@@ -510,11 +506,11 @@ i {
   }
 
   .links {
-    width: 16%;
+    width: 15%;
   }
 
   body {
-    margin-bottom: 7%
+    margin-bottom: 8%
   }
 }
 
