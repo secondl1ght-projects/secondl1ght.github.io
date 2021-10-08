@@ -516,7 +516,7 @@ i {
 
 @media only screen and (min-height: 650px) {
   header {
-    height: 24vh;
+    height: 26vh;
   }
 
   h1 {
@@ -524,7 +524,13 @@ i {
   }
 
   main {
-    margin-top: 15rem;
+    margin-top: 16rem;
+  }
+}
+
+@media only screen and (min-height: 750px) {
+  header {
+    height: 23vh;
   }
 }
 
