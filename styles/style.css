@@ -532,10 +532,18 @@ i {
   header {
     height: 17%;
   }
+
+  h2 {
+    font-size: 100%;
+  }
 }
 
 @media only screen and (min-height: 1100px) {
   header {
     height: 15%;
+  }
+
+  h2 {
+    font-size: 100%;
   }
 }
