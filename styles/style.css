@@ -508,6 +508,18 @@ i {
     height: 20rem;
     width: 10rem;
   }
+
+  .links {
+    width: 18%;
+  }
+
+  .links a {
+    margin: 7%;
+  }
+
+  body {
+    margin-bottom: 15%
+  }
 }
 
 @media only screen and (min-height: 650px) {
