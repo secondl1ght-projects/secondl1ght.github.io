@@ -144,9 +144,10 @@ nav a:active {
 .links {
   display: flex;
   justify-content: center;
-  width: 8%;
+  width: 12%;
   margin: 0 auto;
   border-radius: 100%;
+  position: sticky;
 }
 
 #profilepic, #profilepictext {
@@ -164,6 +165,8 @@ nav a:active {
 
 .links a {
   margin: 8%;
+  border: 2px solid #AFE087;
+  border-radius: 100%;
 }
 
 #profilepic, #profilelink:hover #profilepictext {
