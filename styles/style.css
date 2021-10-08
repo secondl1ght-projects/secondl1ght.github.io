@@ -519,6 +519,10 @@ i {
     height: 26vh;
   }
 
+  body {
+    margin-top: 5%;
+  }
+
   h1 {
     font-size: 1rem;
   }
