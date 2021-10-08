@@ -423,6 +423,21 @@ i {
 }
 
 /*media queries*/
+@media only screen and (max-width: 1300px) {
+  #btcscreenshot {
+    height: 20rem;
+    width: 10rem;
+  }
+
+  .links {
+    width: 15%;
+  }
+
+  body {
+    margin-bottom: 8%
+  }
+}
+
 @media only screen and (max-width: 950px) {
   nav a {
     font-size: 0.7rem;
@@ -499,24 +514,9 @@ i {
   }
 }
 
-@media only screen and (max-height: 750px) {
-  #btcscreenshot {
-    height: 20rem;
-    width: 10rem;
-  }
-
-  .links {
-    width: 15%;
-  }
-
-  body {
-    margin-bottom: 8%
-  }
-}
-
 @media only screen and (min-height: 650px) {
   header {
-    height: 23vh;
+    height: 26vh;
   }
 }
 
