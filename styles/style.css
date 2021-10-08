@@ -518,6 +518,10 @@ i {
   header {
     height: 26vh;
   }
+
+  h1 {
+    font-size: 75%;
+  }
 }
 
 @media only screen and (min-height: 900px) {
