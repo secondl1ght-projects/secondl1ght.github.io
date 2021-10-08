@@ -489,6 +489,11 @@ i {
     width: 75%;
     margin: 10% auto;
   }
+
+  .links {
+    margin-bottom: 5%;
+    width: 15%;
+  }
 }
 
 @media only screen and (max-height: 750px) {
