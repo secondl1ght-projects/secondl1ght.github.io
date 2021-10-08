@@ -522,10 +522,6 @@ i {
   h1 {
     font-size: 1.1rem;
   }
-
-  body {
-    margin-top: 30vh;
-  }
 }
 
 @media only screen and (min-height: 900px) {
