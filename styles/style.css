@@ -492,11 +492,15 @@ i {
 
   .links {
     margin-bottom: 5%;
-    width: 50%;
+    width: 40%;
+  }
+
+  .links a {
+    margin: 7%;
   }
 
   body {
-    margin-bottom: 25%
+    margin-bottom: 20%
   }
 }
 
