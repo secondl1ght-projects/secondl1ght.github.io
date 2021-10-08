@@ -519,8 +519,8 @@ i {
     height: 26vh;
   }
 
-  body {
-    margin-top: 5%;
+  .about {
+    margin-top: 10%;
   }
 
   h1 {
