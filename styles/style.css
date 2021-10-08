@@ -148,6 +148,7 @@ nav a:active {
   margin: 0 auto;
   border-radius: 100%;
   position: sticky;
+  animation: fadeIn 1s;
 }
 
 #profilepic, #profilepictext {
