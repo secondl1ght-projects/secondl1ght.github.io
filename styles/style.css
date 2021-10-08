@@ -519,10 +519,6 @@ i {
     height: 26vh;
   }
 
-  .about {
-    margin-top: 10rem;
-  }
-
   h1 {
     font-size: 1.1rem;
   }
@@ -534,7 +530,7 @@ i {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -544,6 +540,6 @@ i {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
