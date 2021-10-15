@@ -144,7 +144,7 @@ nav a:active {
 .links {
   display: flex;
   justify-content: center;
-  width: 13%;
+  width: 20%;
   margin: 0 auto;
   border-radius: 100%;
   position: sticky;
@@ -165,7 +165,7 @@ nav a:active {
 }
 
 .links a {
-  margin: 8%;
+  margin: 5%;
   border: 2px solid #AFE087;
   border-radius: 100%;
 }
@@ -199,6 +199,14 @@ nav a:active {
 }
 
 #contra2, #contralink:hover #contra {
+  display: block;
+}
+
+#twit, #twitlink:hover #twit2 {
+  display: none;
+}
+
+#twit2, #twitlink:hover #twit {
   display: block;
 }
 
@@ -495,7 +503,7 @@ i {
   }
 
   .links {
-    width: 57%;
+    width: 63%;
   }
 
   body {
@@ -510,7 +518,7 @@ i {
   }
 
   .links {
-    width: 18%;
+    width: 25%;
   }
 
   body {
