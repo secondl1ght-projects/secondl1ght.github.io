@@ -536,13 +536,13 @@ i {
   }
 
   main {
-    margin-top: 35vh;
+    margin-top: 37vh;
   }
 }
 
 @media only screen and (min-height: 800px) {
   main {
-    margin-top: 25vh;
+    margin-top: 20vh;
   }
 }
 
