@@ -540,6 +540,12 @@ i {
   }
 }
 
+@media only screen and (min-height: 700px) {
+  main {
+    margin-top: 33vh;
+  }
+}
+
 @media only screen and (min-height: 800px) {
   main {
     margin-top: 30vh;
