@@ -542,12 +542,6 @@ i {
 
 @media only screen and (min-height: 800px) {
   main {
-    margin-top: 23vh;
-  }
-}
-
-@media only screen and (min-height: 850px) {
-  main {
     margin-top: 25vh;
   }
 }
