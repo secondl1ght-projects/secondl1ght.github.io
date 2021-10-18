@@ -546,6 +546,12 @@ i {
   }
 }
 
+@media only screen and (min-height: 850px) {
+  main {
+    margin-top: 25vh;
+  }
+}
+
 @media only screen and (min-height: 900px) {
   h1 {
     font-size: 2rem;
