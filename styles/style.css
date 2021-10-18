@@ -536,7 +536,13 @@ i {
   }
 
   main {
-    margin-top: 33vh;
+    margin-top: 35vh;
+  }
+}
+
+@media only screen and (min-height: 800px) {
+  main {
+    margin-top: 25vh;
   }
 }
 
