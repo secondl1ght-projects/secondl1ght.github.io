@@ -29,13 +29,13 @@ header {
   border-radius: 0.5%;
   position: fixed;
   width: 100%;
-  height: 23%;
   left: 0;
   top: 0;
   animation: fadeIn 1s;
   border-bottom: 1px solid black;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 1%;
 }
 
 h1 {
@@ -309,7 +309,7 @@ html {
 }
 
 main {
-  margin-top: 13rem;
+  margin-top: 10rem;
 }
 
 .underline {
@@ -531,34 +531,22 @@ i {
 }
 
 @media only screen and (min-height: 650px) {
-  header {
-    height: 25vh;
-  }
-
   h1 {
     font-size: 1.1rem;
   }
 
   main {
-    margin-top: 16rem;
+    margin-top: 13rem;
   }
 }
 
 @media only screen and (min-height: 900px) {
-  header {
-    height: 17%;
-  }
-
   h1 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-height: 1100px) {
-  header {
-    height: 15%;
-  }
-
   h1 {
     font-size: 2rem;
   }
